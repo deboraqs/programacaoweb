@@ -1,2 +1,71 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <title> Meu Formulário </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form method="post" action="form.php">
+            <table>
+                <tr>
+                    <td>
+                        <label for="nome">Nome:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nome"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="endereco">Endereço:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="endereco"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="estado">Estado:</label>
+                    </td>
+                    <td>
+                        <input type="select" name="estado"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sexo">Sexo:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="sexo" value="M"/>Masculino
+                        <input type="radio" name="sexo" value="F"/>Feminino
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mat">Matérias Preferidas:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="mat" value="Port"/>Português
+                        <input type="checkbox" name="mat" value="Java"/>Java
+                        <input type="checkbox" name="mat" value="Matematica"/>Matemática
+                        <input type="checkbox" name="mat" value="PHP"/>PHP
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rsh">Resumo de suas habilidades:</label>
+                    </td>
+                    <td>
+                        <textarea name="rsh">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Enviar"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
 </html>
