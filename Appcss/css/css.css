@@ -1,0 +1,21 @@
+body{
+    font-family: verdana;
+}
+
+p{
+    color: blueviolet;
+}
+
+h1{
+    border: 1px solid aquamarine;
+    color: blueviolet;
+}
+
+p.estrela{
+    color: cadetblue;
+}
+
+header{
+    border-bottom-style: dashed;
+    border-right: solid;
+}
